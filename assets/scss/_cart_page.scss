@@ -1,0 +1,111 @@
+.order_page{
+  background: rgb($mainColor , 0.2);
+  padding:clamp(20px , 4vw , 45px) clamp(8px , 4vw , 20px);
+  .order_item{
+    background: #fff;
+    padding: 15px 12px;
+    border-radius: 8px;
+    border: 2px solid #C9C9C9;
+    @media(max-width : 767px){
+      .order_control .control_count{
+        position: static !important;
+      }
+    }
+  }
+  .order_details{
+    margin-bottom: 30px;
+    h3{
+      font-size: clamp(16px, 4vw , 24px);
+      font-weight: 500;
+    }
+    .data{
+      @include displayFlex($justify : space-between , $align : stretch);
+      ul{
+        // flex-grow: 1;
+        background: #fff;
+        padding: 15px 10px;
+        max-width: 49%;
+        width: 100%;
+        @media (max-width : 767px){
+          max-width: 100%;
+        }
+        li{
+          &:not(:last-of-type){
+            margin-bottom: clamp(10px , 4vw , 24px);
+          }
+          span{
+            font-size: clamp(14px , 4vw , 20px);
+            &:first-of-type{
+              font-weight: 700;
+              color: #333333;
+            } 
+            &.colored{
+              font-weight: 400;
+              color: $mainColor;
+            }
+          }
+          @media (max-width : 992px){
+            flex-wrap: wrap !important;
+            span{
+              // font-size: 16px;
+            }
+            &:not(:last-of-type){
+              margin-bottom: 10px !important;
+            }
+          }
+        }
+        &:first-of-type{
+          li{
+            @include displayFlex($justify : space-between , $gap : 10px);
+            @media (max-width : 567px){
+              justify-content: center;
+            }
+          }
+        }
+      }
+      @media (max-width:676px){
+        flex-wrap: wrap;
+        ul{
+          li{
+            text-align: center;
+            span{
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    &.order_products{
+      li{
+        @include displayFlex($gap:5px , $justify:flex-start);
+        h6{
+          font-size: clamp(30px , 4vw , 60px);
+          font-weight: 600;
+          + .pi-times{
+            margin-block-start: 18px;
+          }
+        }
+        .image{
+          max-width: 150px;
+        }
+        .order_tab{
+          @include displayFlex($align: stretch);
+        }
+      }
+    }
+  }
+  .notes{
+    margin-bottom: 20px;
+    h3{
+      font-size: clamp(16px, 4vw , 24px);
+      font-weight: 500;
+    }
+    p{
+      background: #fff;
+      padding: 15px 10px;
+      border-radius: 10px;
+      font-size: clamp(14px , 4vw , 18px);
+      font-weight: 400;
+    }
+  }
+}

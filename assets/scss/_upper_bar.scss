@@ -1,0 +1,67 @@
+.upper_bar{
+  padding-block: 10px;
+  background: $textColor;
+  position: relative;
+  .content{
+    @include displayFlex($justify:space-between , $gap:clamp(10px , 4vw , 60px));
+    .info{
+      @include displayFlex($gap : 5px);
+      .image{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      h3{
+        font-size: clamp(14px , 4vw , 18px);
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+    .join_link{
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+      @include displayFlex($gap : 8px);
+      i.pi{
+        font-size: 24px;
+      }
+    }
+    .notification{
+      margin-inline-start: auto;
+      position: relative;
+      .notification_badge{
+        position: absolute;
+        inset-inline-start: -2px;
+        top: -2px;
+        width: 10px;
+        height: 10px;
+        font-size: 12px;
+        background: #FF3535;
+        color: #fff;
+        border-radius: 50%;
+        z-index: 9;
+        @include displayFlex();
+        animation: pulse 1s infinite alternate-reverse ;
+      }
+    }
+  }
+  .empty{
+    min-height: 300px;
+  }
+  .input .languages-switch{
+    i.pi{
+      z-index: 3 !important;
+    }
+    a{
+      span{
+        font-size: clamp(16px, 4vw, 24px) !important;
+        color: #fff;
+        &:hover{
+          color: $mainColor;
+        }
+      }
+    }
+  }
+}

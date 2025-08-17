@@ -1,0 +1,58 @@
+.notification_menu{
+  position: absolute;
+  inset-inline-end: 0px;
+  top: 100%;
+  background: #fff;
+  padding: 8px 10px;
+  box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.334);
+  z-index: 3;
+  max-width: 500px;
+  width: 100%;
+  max-height: 500px;
+  overflow:hidden scroll;
+  z-index: 9;
+}
+
+.notification_menu , 
+.notifications{
+  .top{
+    @include displayFlex($justify:space-between);
+    margin-bottom: 15px;
+    h3{
+      font-size: 24px;
+      font-weight: 500;
+    }
+    a:hover{
+      text-decoration: underline !important;
+    }
+  }
+  ul{
+    li{
+      @include displayFlex($justify:flex-start , $wrap : nowrap , $gap : 5px);
+      transition: 1s;
+      padding-block: 12px;
+      .image{
+        width: 15px;
+      }
+      p{
+        font-size: clamp(14px , 4vw , 18px);
+        max-width: 420px;
+        word-wrap: break-word;
+      }
+      button.pi-trash{
+        margin-inline-start: auto;
+        color: $secColor;
+        padding: 5px;
+        border-radius: 3px;
+        cursor: pointer;
+        &:hover{
+          background: $secColor;
+          color: #fff;
+        }
+      }
+      &:not(:last-of-type){
+        border-bottom: 1px solid #C9C9C9;
+      }
+    }
+  }
+}

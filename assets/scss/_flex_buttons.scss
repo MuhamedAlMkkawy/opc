@@ -1,0 +1,15 @@
+.flex_buttons{
+  @include displayFlex($gap : clamp(20px , 4vw , 50px));
+  margin-block: 30px;
+  .main-btn{
+    max-width: 300px;
+    margin-inline: 0;
+  }
+  @media (max-width : 400px){
+    flex-wrap: wrap;
+    gap: 10px;
+    .main-btn{
+      margin-top: 0;
+    }
+  }
+}

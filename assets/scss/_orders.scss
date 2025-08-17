@@ -1,0 +1,112 @@
+.orders{
+  .content{
+    @include displayGrid();
+    @media (max-width:991px){
+      @include displayGrid($gap : 20px);
+    }
+  }
+  .order_item{
+    // width: 340px;
+    // flex-grow: 1;
+    box-shadow: 0 0 4.08px 0px rgb(0 0 0 / 40%);
+    border-radius: 14px;
+    padding: 10px 8px;
+    background: #fff;
+    transition: 1s;
+    position: relative;
+    .image{
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      height: 200px;
+      margin-bottom: 8px;
+      .fav_btn{
+        position: absolute;
+        inset-inline-end: 7px;
+        top: 7px;
+        z-index: 3;
+        width: 25px;
+        height: 25px;
+        background: #fff;
+        border-radius: 5px;
+        font-size: 19px;
+        transform: scale(1.3);
+        .pi-heart-fill{
+          display: none;
+          color: $secColor;
+        }
+        &:hover{
+          .pi-heart{
+            display: none;
+          }
+          .pi-heart-fill{
+            display: block;
+          }
+        }
+      }
+    }
+    .sale{
+      position: absolute;
+      top: 14px;
+      inset-inline-start: 14px;
+      padding: 4px 8px;
+      background: $secColor;
+      color: #fff;
+      border-radius: 3px;
+      z-index: 99;
+    }
+    h5{
+      font-size: clamp(16px , 4vw , 24px);
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 8px;
+    @include textTruncate(1);
+    }
+    .row_item{
+      @include displayFlex($justify:flex-start , $gap : 10px);
+      margin-bottom: 10px;
+      &.rating{
+        @include displayFlex($justify:space-between , $wrap : nowrap);
+        .rate{
+          @include displayFlex($gap : 4px, $wrap : nowrap);
+        }
+        p{
+          font-size: 16px;
+          font-weight: 400;
+          color: #9E9E9E;
+        }
+        .part_number{
+          color: $thirdColor;
+          font-size: 14px;
+          font-weight: 400;
+          @include textTruncate(1);
+
+        }
+      }
+      &.price{
+        p{
+          font-size: 18px;
+          font-weight: 400;
+          color: #333333;
+        }
+        del{
+          color: #9E9E9E;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+    hr + a{
+      margin-top: 5px;
+      @include displayFlex($justify : flex-start , $gap : 4px);
+      color: $mainColor;
+      transition: 0.6s;
+      &:hover{
+        gap: 10px;
+      }
+    }
+    &:hover{
+      box-shadow: 0 0 4.08px 0px rgb(0 0 0 / 60%);
+    }
+  }
+}

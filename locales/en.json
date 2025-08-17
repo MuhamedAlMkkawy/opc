@@ -1,0 +1,442 @@
+{
+  "language" : "English",
+  "signText_header" : "Login / Register",
+  "user_type" : {
+    "ask_type" : "First Choose your user type",
+    "individual" : "Individual",
+    "company" : "Company"
+  },
+  "login" : {
+    "title" : "Login",
+    "text" : "Enter your phone number to get a code",
+    "label" : "Phone Number",
+    "placeholder": "Enter Phone Number",
+    "submit" : "Login",
+    "enter" : "Enter as",
+    "visitor" : "Visitor",
+    "have_account" : "Don't have account ?",
+    "sign_up" : "Create One"
+  },
+  "code" : {
+    "title" : "Code",
+    "text" : "Enter the code that has been sent",
+    "submit" : "Confirm",
+    "expired_text" : "Code will be expired in ",
+    "resend_code" : "Resend Code"
+  },
+  "register" : {
+    "title" : "Sign Up",
+    "text" : "Enter your name & phone number to get a code",
+    "profile_picture_label" : "Profile Picture",
+    "profile_picture_text" : "Upload Profile Picture",
+    "name_label" : "Name",
+    "name_placeholder" : "Enter Your Name",
+    "phone_label" : "Phone Number",
+    "phone_placeholder" : "Enter Your Phone Number",
+    "email_label" : "Email (optional)",
+    "email_placeholder" : "Enter Your Email",
+    "city_label" : "City",
+    "city_placeholder" : "Choose City",
+    "commercial_label" : "Commercial Registration Number",
+    "commercial_placeholder" : "Enter Your Commercial Registration Number",
+    "terms" : "terms and conditions",
+    "submit" : "Next",
+    "have_account" : "Already have account ? ",
+    "login" : "Log in"
+  },
+  "login_popup" : {
+    "title" : "Login is required first",
+    "login_btn" : "Login"
+  },
+  "notification_menu":{
+    "title" : "Notifications",
+    "view_all" : "view all",
+    "delete_all" : "delete all"
+  },
+  "menu" : {
+    "title" : "Main Menu",
+    "home" : "Home",
+    "orders" : "Orders",
+    "profile" : "Profile",
+    "settings" : "Settings",
+    "addresses" : "Saved Addresses",
+    "wallet" : "Wallet",
+    "logout" : "Logout",
+    "login" : "Login"
+  },
+  "favourites" : {
+    "title" : "Favourites"
+  },
+  "search_bar" : {
+    "search_placeholder" : "General Search",
+    "vin_number" : "Vin Number",
+    "submit" : "Search",
+    "brand" : "Brand",
+    "model" : "Model",
+    "year" : "Year",
+    "category" : "Category",
+    "part_number" : "Part Number",
+    "part_number_placeholder" : "Enter Part Number",
+    "apply" : "Apply",
+    "reset" : "Reset",
+    "choose" : "Choose"
+  },
+  "brand_filter_popup" : {
+    "title" : "Choose First",
+    "choose_brand" : "Choose Brand",
+    "choose_model" : "Choose Model",
+    "choose_year" : "Choose Year",
+    "choose_category" : "Choose Category",
+    "search" : "Search"
+  },
+  "main_header" : {
+    "categories" : "Categories",
+    "show_categories" : "Show All Categories"
+  },
+  "offers":{
+    "title":"Current Offers"
+  },
+  "most_products" : {
+    "title" : "Most Ordered Products",
+    "part_number" : "Part Number",
+    "details_text" : "Show details"
+  },
+  "last_products" : {
+    "title" : "Last Viewed Products"
+  },
+  "wallet" : {
+    "title" : "Wallet",
+    "balance" : "Current balance",
+    "recharge_btn" : "Recharge",
+    "popup_title" : "Wallet Recharge",
+    "popup_text" : "enter the amount of money",
+    "popup_inputText" : "enter the amount",
+    "charge" : "Charge",
+    "currency" : "SAR"
+  },
+  "faq" : {
+    "title" : "FAQ"
+  },
+  "about" : {
+    "title" : "About Us"
+  },
+  "terms" : {
+    "title" : "Terms and conditions"
+  },
+  "contact" : {
+    "title" : "Contact Us",
+    "name_label" : "Name",
+    "name_placeholder" :"Enter Your Name",
+    "phone_label" : "Phone Number",
+    "phone_placeholder" :"Enter Your Phone Number",
+    "msgSubject_label" : "Message Subject",
+    "msgSubject_placeholder" :"Enter Your Message Subject",
+    "msgText_label" : "Message Text",
+    "msgText_placeholder" :"Enter Your Message Text",
+    "send_btn" : "Send"
+  },
+  "complaint" : {
+    "title" : "Complaints",
+    "complaintTitle" : "Title",
+    "Number" : "Number",
+    "From" : "From",
+    "details" : "Details",
+    "replyBtn" : "View Reply",
+    "name_label" : "Name",
+    "name_placeholder" :"Enter Your Name",
+    "phone_label" : "Phone Number",
+    "phone_placeholder" :"Enter Your Phone Number",
+    "msgSubject_label" : "Message Subject",
+    "msgSubject_placeholder" :"Enter Your Message Subject",
+    "msgText_label" : "Message Text",
+    "msgText_placeholder" :"Enter Your Message Text",
+    "send_btn" : "Send",
+    "reply_title" : "Reply to Complaint"
+  },
+  "cart" : {
+    "update_text" : "Update Count",
+    "order_notes" : "Order Notes",
+    "order_notes_placeholder" : "Enter Your Notes",
+    "submit_btn" : "Continue Order",
+    "confirm_page": {
+      "title": "Order Page",
+      "product_price": "Product Price : ",
+      "discount_price": "Discount Price : ",
+      "tax_price": "Tax Price : ",
+      "total_price": "Total Price : ",
+      "order_number": "Order Number : ",
+      "order_date": "Order Date : ",
+      "delivery_time": "Delivery Time : ",
+      "branch_address": "Branch Address : ",
+      "notes_on_order": "Notes on order :",
+      "confirm_order": "Confirm Order"
+    }
+  },
+  "delivery_method" : {
+    "title" : "Recieving Method",
+    "delivery" : "Delivery",
+    "recieving" : "Recieving From Branch",
+    "submit_btn" : "Continue Order"
+  },
+  "current_location" : {
+    "title" : "Enter your Location to give you the nearest branch:",
+    "label" : "Your Location",
+    "placeholder" : "Enter Your Location",
+    "button": {
+      "view_nearest_branches": "View Nearest branches to your location"
+    }
+  },
+  "branches" : {
+    "title" : "Nearest Branches"
+  },
+  "check_store" : {
+    "unavailable_order" : "Your order is not available in the nearest branch",
+    "available_order" : "Your order is available in the nearest branch",
+    "available" : "available" ,
+    "unavailable" : "not available in branch"
+  },
+  "orders" : {
+    "title" : "Orders",
+    "new_order" : "New",
+    "pay_order" : "On Payment",
+    "current_order" : "Current",
+    "finished_order" : "Finished",
+    "cancel_order" : "Canceled",
+    "order_details" : "order details"
+  },
+  "profile" :  {
+    "title": "My Profile",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "city": "City",
+      "phone": "Phone Number"
+    }
+  },
+  "settings" : {
+    "title": "Settings",
+    "edit_data" : "Edit Personal Data",
+    "edit_phone" : "Change Phone Number",
+    "delete_account": "Delete Account",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "city": "City",
+      "phone": "Phone Number"
+    },
+    "placeholders" : {
+      "name" : "Enter Your Name",
+      "email" : "Enter Your Email",
+      "city" : "Enter Your City",
+      "phone" : "Enter Your Phone Number"
+    },
+    "successText" : "Changes Saved Successfully"
+  }, 
+  "new_phone" : {
+    "title" : "Enter Your Phone Number",
+    "text" : "Enter The New Phone Number",
+    "label" : "Phone Number",
+    "placeholder" : "Enter Phone Number"
+  },
+  "categories" : {
+    "title" : "All Categories",
+    "view_product" : "view products",
+    "sub_category" : "Sub Categories",
+    "products" : "Products"
+  },
+  "filter_popup" : {
+    "highest_price" : "Highest Price",
+    "lowest_price" : "Lowest Price",
+    "highest_rate" : "Highest Rate"
+  },
+  "delete_account" : {
+    "title" : "Delete Account",
+    "text" : "Are you sure you want to delete your account ?"
+  },
+  "success_popup" : {
+    "confirm_order" : "The order has been confirmed successfully",
+    "successed_payment" : "The payment has been done successfully",
+    "change_phone" : "Phone Number changed successfully"
+  },
+  "report_popup" :  {
+    "title" : "Report",
+    "label" : "Reason of Report",
+    "placeholder" : "write a reason",
+    "confirm_reported" : "The request is being reviewed and another representative from the shipping company has been sent"
+  },
+  "addToCartPopup" : {
+    "title": "The product is added to cart successfully",
+    "buttons": {
+      "viewCart": "View Cart",
+      "continueShopping": "Continue Shopping"
+    }
+  },
+  "subCategoryfilter_popup" : {
+    "sub_category" : "SubCategory"
+  },
+  "logoutPopup" : {
+    "title" : "Are You Sure You Want To Logout ?",
+    "logout" : "Logout",
+    "back" : "Back"
+  },
+  "track_order" : {
+    "branch" : "Receiving from branch",
+    "delivery" : "Delivery Address",
+    "confirm" : "Confirm Order"
+  },
+  "delivery_addresses" : {
+    "enter_new_address" : "Enter New Address",
+    "choose_from_saved_addresses" : "Choose from saved addresses",    
+    "address_title" : "Address Title",
+    "address_details" : "Address Details",
+    "enter_address_title" : "Enter Address Title",
+    "enter_address_details" : "Enter Address details"
+  },
+  "static_texts" : {
+    "accept" : "Accept",
+    "next" : "Next",
+    "back" : "Back",
+    "save" : "Save",
+    "go_back" : "Go Back",
+    "back_home" : "Back to home",
+    "add_new" : "Add New",
+    "choose" : "Choose",
+    "send" : "Send",
+    "apply" : "Apply",
+    "delete" : "Delete",
+    "save_changes" : "Save Changes",
+    "filter" : "Filter",
+    "filter_results" : "Filter Results",
+    "go_pay" : "Go To Payment"
+  },
+  "footer": {
+    "hyper_links": "Hyper Links",
+    "home": "Home",
+    "orders": "Orders",
+    "cart": "Cart",
+    "favourites": "Favourites",
+    "contact_us": "Contact us",
+    "about_us": "About us",
+    "faq": "FAQ",
+    "terms_conditions": "Terms & Conditions",
+    "complaints_suggestions": "Complaints & Suggestions",
+    "copyright": "All Rights Reserved OPC - Designed and programmed by Awamer Alshabaka 2024"
+  },
+  "product_details_page" : {
+    "product_details": "Product Details",
+    "product_type": "Product Type :",
+    "part_number": "part number :",
+    "minimum_quantity": "Minimum quality :",
+    "price_label": "Price :",
+    "add_to_cart": "Add To Cart",
+    "product_characteristics": "Product Characteristics",
+    "choose_characteristics": "choose characteristics",
+    "available": "Available",
+    "not_available": "Not Available",
+    "product_details_tab": "Product details",
+    "product_feedbacks_tab": "Product Feedbacks",
+    "similar_products_tab": "Similar Products",
+    "details_text" : "View Details"
+  },
+  "saved_addresses" : {
+    "title" : "Saved Addresses",
+    "add_title" : "Add New Address",
+    "edit_title" : "Edit Address",
+    "delete_title" : "Are You Sure Want to delete this address ?",
+    "form" : {
+      "title_label" : "Location Title",
+      "title_placeholder" : "Enter location title",
+      "details_label" : "Location Details",
+      "details_placeholder" : "Enter location details"
+    },
+    "validations" : {
+      "title_required" : "Location title is required",
+      "title_length" : "Location title must be at least 3 characters",
+      "details_required" : "Location details are required",
+      "details_length" : "Location details must be at least 3 characters",
+      "location_required" : "Please select location on the map"
+    }
+  },
+  "orders_page" : {
+    "title" : "Orders",
+    "order_name" : "New Order",    
+    "new" : "New",
+    "on_payments" : "On Payment",
+    "current" : "Current",
+    "finished" : "Finished",
+    "canceled" : "Canceled",
+    "order_details" : "Order Details"
+  },
+  "order_details" : {
+    "title" : "Order Details",
+    "order_statuses" : {
+      "waitingForApprove" : "Waiting For Approve",
+      "onPayment" : "On Payment",
+      "preparing" : "Preparing",
+      "prepared" : "Prepared",
+      "onDelivery" : "On Delivery",
+      "delivered" : "Delivered",
+      "canceled" : "Canceled"
+    },
+    "buttons" : {
+      "pay" : "Pay",
+      "report" : "Report a Problem",
+      "chat" : "Start a Chat",
+      "read" : "Read Chat",
+      "cancel" : "Cancel Order",
+      "recieved" : "Recieved",
+      "download" : "Download bill",
+      "rate" : "Rate Product",
+      "rated" : "View Rate"
+    },
+    "order_price" : "Order Price : ",
+    "discount_price" : "Discount Price : ",
+    "delivery_price" : "Delivery Price : ",
+    "payment" : "Payment : ",
+    "tax_price" : "Tax Price : ",
+    "total" : "Total Price : ",
+    "order_number" : "Order Number : ",
+    "order_date" : "Order Date : ",
+    "delivery_time" : "Delivery Time : ",
+    "branch_time" : "Branch Time : ",
+    "branch_address" : "Branch Address : ",
+    "delivery_address" : "Delivery Address : ",
+    "notes_on_order" : "Notes on order : ",
+    "order_products" : "Order Products : ",
+    "cancel_reason" : "Cancel Reason"
+  },
+  "payment_popup" : {
+    "title" : "Payment",
+    "tax_price" : "Tax Price : ",
+    "total" : "Total : ",
+    "price_after_discount" : "Price After Discount : ",
+    "discount_copon" : "Discount Copon : ",
+    "discount_copon_placeholder" : "Enter discount copon",
+    "apply" : "Apply",
+    "payment_method" : "Payment Method:",
+    "payment_methods" : {
+      "wallet" : "E-Wallet",
+      "cash" : "Cash",
+      "electronic" : "Electronic"
+    },
+    "back" : "Back",
+    "pay" : "Pay"
+  },
+  "rate_product_popup" : {
+    "title" : "Rating Product",
+    "comment_placeholder" : "Write Comment",
+    "send_btn" : "Send Feedback",
+    "stars_error" : "Please add rating stars for your feedback",
+    "feedback_sent" : "Feedback has been sent successfully",
+    "feedback_title" : "Feedbacks"
+  },
+  "chat" : {
+    "placeholder" : "Enter Your Message here"
+  },
+  "select_location" : {
+    "title" : "Address Title",
+    "title_placeholder" : "Enter Address Title",
+    "details" : "Address Details",
+    "details_placeholder" : "Enter Address Details"
+  }
+}

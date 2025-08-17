@@ -1,0 +1,184 @@
+// import variables 
+@import "./variables";
+@import "./generic";
+@import "./mixins";
+@import "./main-btn";
+@import "./flex_buttons";
+@import "./pageTransition";
+@import "./auth_page";
+@import "./otp_input";
+@import "./categories";
+@import "./upper_bar";
+// @import "./navbar";
+@import "./main_slider";
+@import "./notifications";
+@import "./popup";
+@import "./orders";
+@import "./static_page";
+@import "./delivery_method";
+@import "./order_item";
+@import "./control_btns";
+@import "./cart_page";
+@import "./data";
+@import "./saved_addresses_page";
+@import "./pulse";
+@import "./empty";
+
+
+.container{
+  // max-width: clamp(300px, 100%, 1220px);
+  margin: 0 auto;
+  padding-inline: 20px;
+  @media (max-width : 567px){
+    padding-inline: 4px;
+  }
+}
+
+
+h3.title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-block:50px 30px;
+  @media (max-width : 567px){
+    margin-block: 20px 10px;
+  }
+}
+
+.p-rating-option-active .p-rating-icon{
+  color: #FFBF26 !important;
+}
+.p-rating{
+  gap: 3px !important;
+}
+.p-rating-icon{
+  width: 12px !important;
+}
+
+.rate_product_popup{
+  .content{
+    .p-rating{
+      .p-rating-icon{
+        width: 40px !important;
+        height: 40px;
+      }
+    }
+  }
+  &.feedback_product_popup{
+    .content{
+      .p-rating{
+        .p-rating-icon{
+          width: 25px !important;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+
+.page_title{
+  font-size: clamp(20px , 4vw , 35px);
+  color: $mainColor;
+  padding-inline-start: 15px;
+  margin-bottom: 20px;
+}
+
+// for elemnt has colored bg to $mainColor with alpha 0.12
+.bg_colored{
+  background: rgba($color: $mainColor, $alpha: 0.12);
+  padding: clamp(20px , 4vw , 38px) clamp(15px , 4vw , 30px);
+}
+
+.page{
+  min-height: 43.2vh;
+  padding-block: 50px;
+}
+
+
+//  ################# Customize the carousel of product ################
+.product_slider {
+  @include displayFlex($align: stretch , $gap : 8px  , $justify : stretch);
+  width: 100%;
+  max-height: 330px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#product_gallery{
+  width: 100%;
+  border-radius: 8px !important;
+  overflow: hidden;
+  img{
+    cursor: zoom-in !important;
+  }
+}
+
+#product_thumbnails .carousel__viewport {
+  overflow: hidden !important;
+  // height: 300px; /* Match your desired vertical height */
+  @media (max-width : 600px){
+    display: none;
+  }
+}
+
+#product_thumbnails .carousel__track {
+  flex-direction: column !important; /* Ensure vertical alignment */
+  justify-content: space-between;
+  transition: transform 0.5s ease-in-out; /* Smooth vertical transition */
+}
+
+#product_thumbnails .carousel__slide {
+  width: 120px !important;
+  height: 32%;
+  .thumbnail{
+    width: 120px !important;
+    height: 100% !important; /* Adjust thumbnail height */
+    border-radius: 4px; /* Optional styling */
+    overflow: hidden ;
+    filter: brightness(0.3);
+    cursor: pointer;
+    transition: 0.6s;
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &:hover ,
+  &.carousel__slide--active{
+    .thumbnail{
+      filter: brightness(1) !important;
+    }
+  }
+}
+
+
+
+// handle position of toast message
+.p-toast-top-right{
+  inset-inline-end: 15px !important;
+  z-index: 9999 !important;
+}
+
+.p-toast-close-button{
+  margin: 0 ;
+  outline: unset !important;
+}
+
+
+
+// define otp
+.p-inputotp{
+  height: 84px;
+  gap: 25px !important;
+  @media (max-width : 567px){
+    gap: 10px !important;
+    height: 50px;
+  }
+}
+
+
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+  display: none !important;
+}

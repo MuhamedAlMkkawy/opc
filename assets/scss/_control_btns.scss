@@ -1,0 +1,28 @@
+.control_btns{
+  @include displayFlex($gap : 8px);
+  button{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    padding: 4px;
+    overflow: hidden;
+    &.pi-pencil{
+      &:hover{
+        border-radius: 5px;
+        background: #333333;
+      }
+    }
+    &.pi-trash{
+      color: $secColor;
+      border: unset;
+      &:hover{
+        background: $secColor;
+      }
+    }
+    &:hover{
+      color: #fff;
+    }
+  }
+}

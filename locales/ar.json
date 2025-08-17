@@ -1,0 +1,442 @@
+{
+  "language" : "العربية",
+  "signText_header" : "تسجيل الدخول / التسجيل",
+  "user_type" : {
+    "ask_type" : "اختر نوع المستخدم أولاً",
+    "individual" : "فرد",
+    "company" : "شركة"
+  },
+  "login" : {
+    "title" : "تسجيل الدخول",
+    "text" : "أدخل رقم هاتفك للحصول على رمز",
+    "label" : "رقم الهاتف",
+    "placeholder": "أدخل رقم الهاتف",
+    "submit" : "تسجيل الدخول",
+    "enter" : "الدخول كـ",
+    "visitor" : "زائر",
+    "have_account" : "ليس لديك حساب؟",
+    "sign_up" : "إنشاء حساب"
+  },
+  "code" : {
+    "title" : "رمز التحقق",
+    "text" : "أدخل الرمز الذي تم إرساله",
+    "submit" : "تأكيد",
+    "expired_text" : "سينتهي الرمز خلال ",
+    "resend_code" : "إعادة إرسال الرمز"
+  },
+  "register" : {
+    "title" : "التسجيل",
+    "text" : "أدخل اسمك ورقم هاتفك للحصول على رمز",
+    "profile_picture_label" : "صورة الملف الشخصي",
+    "profile_picture_text" : "رفع صورة الملف الشخصي",
+    "name_label" : "الاسم",
+    "name_placeholder" : "أدخل اسمك",
+    "phone_label" : "رقم الهاتف",
+    "phone_placeholder" : "أدخل رقم هاتفك",
+    "email_label" : "البريد الإلكتروني (اختياري)",
+    "email_placeholder" : "أدخل بريدك الإلكتروني",
+    "city_label" : "المدينة",
+    "city_placeholder" : "اختر المدينة",
+    "commercial_label" : "رقم السجل التجاري",
+    "commercial_placeholder" : "أدخل رقم السجل التجاري",
+    "terms" : "الشروط والأحكام",
+    "submit" : "التالي",
+    "have_account" : "هل لديك حساب بالفعل؟ ",
+    "login" : "تسجيل الدخول"
+  },
+  "login_popup" : {
+    "title" : "يجب تسجيل الدخول أولا",
+    "login_btn" : "تسجيل الدخول"
+  },
+  "notification_menu":{
+    "title" : "الإشعارات",
+    "view_all" : "عرض الكل",
+    "delete_all" : "حذف الكل"
+  },
+  "menu" : {
+    "title" : "القائمة الرئيسية",
+    "home" : "الرئيسية",
+    "orders" : "الطلبات",
+    "profile" : "الملف الشخصي",
+    "settings" : "الإعدادات",
+    "addresses" : "العناوين المحفوظة",
+    "wallet" : "المحفظة",
+    "logout" : "تسجيل الخروج",
+    "login" : "تسجيل الدخول"
+  },
+  "favourites" : {
+    "title" : "المفضلة"
+  },
+  "search_bar" : {
+    "search_placeholder" : "بحث عام",
+    "vin_number" : "رقم VIN",
+    "submit" : "بحث",
+    "brand" : "العلامة التجارية",
+    "model" : "الموديل",
+    "year" : "السنة",
+    "category" : "الفئة",
+    "part_number" : "رقم القطعة",
+    "part_number_placeholder" : "أدخل رقم القطعة",
+    "apply" : "تطبيق",
+    "reset" : "إعادة تعيين",
+    "choose" : "اختر"
+  },
+  "brand_filter_popup" : {
+    "title" : "اختر أولاً",
+    "choose_brand" : "اختر العلامة التجارية",
+    "choose_model" : "اختر الموديل",
+    "choose_year" : "اختر السنة",
+    "choose_category" : "اختر الفئة",
+    "search" : "بحث"
+  },
+  "main_header" : {
+    "categories" : "الفئات",
+    "show_categories" : "عرض جميع الفئات"
+  },
+  "offers":{
+    "title":"العروض الحالية"
+  },
+  "most_products" : {
+    "title" : "المنتجات الأكثر طلباً",
+    "part_number" : "رقم القطعة",
+    "details_text" : "عرض التفاصيل"
+  },
+  "last_products" : {
+    "title" : "آخر المنتجات التي تم عرضها"
+  },
+  "wallet" : {
+    "title" : "المحفظة",
+    "balance" : "الرصيد الحالي",
+    "recharge_btn" : "إعادة الشحن",
+    "popup_title" : "شحن المحفظة",
+    "popup_text" : "أدخل المبلغ",
+    "popup_inputText" : "أدخل المبلغ",
+    "charge" : "شحن",
+    "currency" : "ريال"
+  },
+  "faq" : {
+    "title" : "الأسئلة الشائعة"
+  },
+  "about" : {
+    "title" : "من نحن"
+  },
+  "terms" : {
+    "title" : "الشروط والأحكام"
+  },
+  "contact" : {
+    "title" : "اتصل بنا",
+    "name_label" : "الاسم",
+    "name_placeholder" :"أدخل اسمك",
+    "phone_label" : "رقم الهاتف",
+    "phone_placeholder" :"أدخل رقم هاتفك",
+    "msgSubject_label" : "موضوع الرسالة",
+    "msgSubject_placeholder" :"أدخل موضوع الرسالة",
+    "msgText_label" : "نص الرسالة",
+    "msgText_placeholder" :"أدخل نص الرسالة",
+    "send_btn" : "إرسال"
+  },
+  "complaint" : {
+    "title" : "الشكاوى",
+    "complaintTitle" : "العنوان",
+    "Number" : "الرقم",
+    "From" : "من",
+    "details" : "التفاصيل",
+    "replyBtn" : "عرض الرد",
+    "name_label" : "الاسم",
+    "name_placeholder" :"أدخل اسمك",
+    "phone_label" : "رقم الهاتف",
+    "phone_placeholder" :"أدخل رقم هاتفك",
+    "msgSubject_label" : "موضوع الرسالة",
+    "msgSubject_placeholder" :"أدخل موضوع الرسالة",
+    "msgText_label" : "نص الرسالة",
+    "msgText_placeholder" :"أدخل نص الرسالة",
+    "send_btn" : "إرسال",
+    "reply_title" : "رد الشكوى"
+  },
+  "cart" : {
+    "update_text" : "تحديث العدد",
+    "order_notes" : "ملاحظات الطلب",
+    "order_notes_placeholder" : "أدخل ملاحظاتك",
+    "submit_btn" : "متابعة الطلب",
+    "confirm_page": {
+      "title": "صفحة الطلب",
+      "product_price": "سعر المنتج : ",
+      "discount_price": "سعر الخصم : ",
+      "tax_price": "سعر الضريبة : ",
+      "total_price": "السعر الكلي : ",
+      "order_number": "رقم الطلب : ",
+      "order_date": "تاريخ الطلب : ",
+      "delivery_time": "ميعاد التوصيل : ",
+      "branch_address": "عنوان الفرع : ",
+      "notes_on_order": "ملاحظات على الطلب :",
+      "confirm_order": "تأكيد الطلب"
+    }
+  },
+  "delivery_method" : {
+    "title" : "طريقة الاستلام",
+    "delivery" : "توصيل",
+    "recieving" : "الاستلام من الفرع",
+    "submit_btn" : "متابعة الطلب"
+  },
+  "current_location" : {
+    "title" : "أدخل موقعك لإعطائك أقرب فرع:",
+    "label" : "موقعك",
+    "placeholder" : "أدخل موقعك",
+    "button": {
+      "view_nearest_branches": "عرض الفروع الأقرب إلى موقعك"
+    }
+  },
+  "branches" : {
+    "title" : "أقرب الفروع"
+  },
+  "check_store" : {
+    "unavailable_order" : "طلبك غير متوفر في أقرب فرع",
+    "available_order" : "طلبك متوفر في أقرب فرع",
+    "available" : "متوفر" ,
+    "unavailable" : "غير متوفر في الفرع"
+  },
+  "orders" : {
+    "title" : "الطلبات",
+    "new_order" : "جديد",
+    "pay_order" : "قيد الدفع",
+    "current_order" : "حالي",
+    "finished_order" : "منتهي",
+    "cancel_order" : "ملغى",
+    "order_details" : "تفاصيل الطلب"
+  },
+  "profile" :  {
+    "title": "ملفي الشخصي",
+    "labels": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "city": "المدينة",
+      "phone": "رقم الهاتف"
+    }
+  },
+  "settings" : {
+    "title": "الإعدادات",
+    "edit_data" : "تعديل البيانات الشخصية",
+    "edit_phone" : "تغيير رقم الهاتف",
+    "delete_account": "حذف الحساب",
+    "labels": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "city": "المدينة",
+      "phone": "رقم الهاتف"
+    },
+    "placeholders" : {
+      "name" : "أدخل اسمك",
+      "email" : "أدخل بريدك الإلكتروني",
+      "city" : "أدخل مدينتك",
+      "phone" : "أدخل رقم هاتفك"
+    },
+    "successText" : "تم حفظ التغييرات بنجاح"
+  }, 
+  "new_phone" : {
+    "title" : "أدخل رقم هاتفك",
+    "text" : "أدخل رقم الهاتف الجديد",
+    "label" : "رقم الهاتف",
+    "placeholder" : "أدخل رقم الهاتف"
+  },
+  "categories" : {
+    "title" : "جميع الفئات",
+    "view_product" : "عرض المنتجات",
+    "sub_category" : "الفئات الفرعية",
+    "products" : "المنتجات"
+  },
+  "filter_popup" : {
+    "highest_price" : "أعلى سعر",
+    "lowest_price" : "أقل سعر",
+    "highest_rate" : "أعلى تقييم"
+  },
+  "delete_account" : {
+    "title" : "حذف الحساب",
+    "text" : "هل أنت متأكد أنك تريد حذف حسابك؟"
+  },
+  "success_popup" : {
+    "confirm_order" : "تم تأكيد الطلب بنجاح",
+    "successed_payment" : "تم الدفع بنجاح",
+    "change_phone" : "تم تغيير رقم الهاتف بنجاح"
+  },
+  "report_popup" :  {
+    "title" : "الإبلاغ",
+    "label" : "سبب الإبلاغ",
+    "placeholder" : "اكتب سبباً",
+    "confirm_reported" : "يتم مراجعة الطلب وإرسال ممثل آخر من شركة الشحن"
+  },
+  "addToCartPopup" : {
+    "title": "تمت إضافة المنتج إلى السلة بنجاح",
+    "buttons": {
+      "viewCart": "عرض السلة",
+      "continueShopping": "مواصلة التسوق"
+    }
+  },
+  "subCategoryfilter_popup" : {
+    "sub_category" : "الفئة الفرعية"
+  },
+  "logoutPopup" : {
+    "title" : "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "logout" : "تسجيل الخروج",
+    "back" : "رجوع"
+  },
+  "track_order" : {
+    "branch" : "الاستلام من الفرع",
+    "delivery" : "عنوان التوصيل",
+    "confirm" : "تأكيد الطلب"
+  },
+  "delivery_addresses" : {
+    "enter_new_address" : "أدخل عنوانًا جديدًا",
+    "choose_from_saved_addresses" : "اختر من العناوين المحفوظة",
+    "address_title" : "عنوان العنوان",
+    "address_details" : "تفاصيل العنوان",
+    "enter_address_title" : "أدخل عنوان العنوان",
+    "enter_address_details" : "أدخل تفاصيل العنوان"
+  },
+  "static_texts" : {
+    "accept" : "قبول",
+    "next" : "التالي",
+    "back" : "رجوع",
+    "save" : "حفظ",
+    "go_back" : "العودة",
+    "back_home" : "العودة إلى الرئيسية",
+    "add_new" : "إضافة جديد",
+    "choose" : "اختر",
+    "send" : "إرسال",
+    "apply" : "تطبيق",
+    "delete" : "حذف",
+    "save_changes" : "حفظ التغييرات",
+    "filter" : "تصفية",
+    "filter_results" : "تصفية النتائج",
+    "go_pay" : "الذهاب إلى الدفع"
+  },
+  "footer": {
+    "hyper_links": "الروابط التشعبية",
+    "home": "الرئيسية",
+    "orders": "الطلبات",
+    "cart": "عربة التسوق",
+    "favourites": "المفضلة",
+    "contact_us": "اتصل بنا",
+    "about_us": "معلومات عنا",
+    "faq": "الأسئلة الشائعة",
+    "terms_conditions": "الشروط والأحكام",
+    "complaints_suggestions": "الشكاوى والاقتراحات",
+    "copyright": "جميع الحقوق محفوظة OPC - تصميم وبرمجة أوامر الشبكة 2024"
+  },
+  "product_details_page" : {
+    "product_details": "تفاصيل المنتج",
+    "product_type": "نوع المنتج :",
+    "part_number": "رقم الجزء :",
+    "minimum_quantity": "أقل كمية :",
+    "price_label": "السعر :",
+    "add_to_cart": "أضف إلى عربة التسوق",
+    "product_characteristics": "خصائص المنتج",
+    "choose_characteristics": "اختر الخصائص",
+    "available": "متوفر",
+    "not_available": "غير متوفر",
+    "product_details_tab": "تفاصيل المنتج",
+    "product_feedbacks_tab": "ملاحظات المنتج",
+    "similar_products_tab": "منتجات مشابهة",
+    "details_text" : "عرض التفاصيل"
+  },
+  "saved_addresses" : {
+    "title" : "العناوين المحفوظة",
+    "add_title" : "إضافة عنوان جديد",
+    "edit_title" : "تعديل العنوان",
+    "delete_title" : "هل أنت متأكد أنك تريد حذف هذا العنوان؟",
+    "form" : {
+      "title_label" : "عنوان الموقع",
+      "title_placeholder" : "أدخل عنوان الموقع",
+      "details_label" : "تفاصيل الموقع",
+      "details_placeholder" : "أدخل تفاصيل الموقع"
+    },
+    "validations" : {
+      "title_required" : "يجب إضافة عنوان الموقع",
+      "title_length" : "يجب ألا يقل عنوان الموقع عن 3 حروف",
+      "details_required" : "يجب إضافة تفاصيل العنوان",
+      "details_length" : "يجب ألا تقل تفاصيل العنوان عن 3 حروف",
+      "location_required" : "يجب تحديد الموقع عالخريطه"
+    }
+  },
+  "orders_page" : {
+    "title" : "الطلبات",
+    "order_name" : "طلب جديد",
+    "new" : "جديد",
+    "on_payments" : "قيد الدفع",
+    "current" : "حالي",
+    "finished" : "منتهي",
+    "canceled" : "ملغي",
+    "order_details" : "تفاصيل الطلب"
+  },
+  "order_details" : {
+    "title" : "تفاصيل الطلب",
+    "order_statuses" : {
+      "waitingForApprove" : "في انتظار التأكيد",
+      "onPayment" : "قيد الدفع",
+      "preparing" : "جاري التحضير",
+      "prepared" : "تم التحضير",
+      "onDelivery" : "قيد التوصيل",
+      "delivered" : "تم التوصيل",
+      "canceled" : "ملغي"
+    },
+    "buttons" : {
+      "pay" : "دفع",
+      "report" : "الإبلاغ عن مشكلة",
+      "chat" : "بدء محادثة",
+      "read" : "أقرأ المحادثة",
+      "cancel" : "إلغاء الطلب",
+      "recieved" : "تم الاستلام",
+      "download" : "تحميل الفاتورة",
+      "rate" : "تقييم المنتج",
+      "rated" : "عرض التقييم"
+    },
+    "order_price" : "سعر الطلب :",
+    "discount_price" : "سعر الخصم :",
+    "delivery_price" : "سعر التوصيل :",
+    "payment" : "الدفع :",
+    "tax_price" : "سعر الضريبة :",
+    "total" : "السعر الكلي :",
+    "order_number" : "رقم الطلب :",
+    "order_date" : "تاريخ الطلب :",
+    "delivery_time" : "ميعاد التوصيل :",
+    "branch_time" : "ميعاد الاستلام : ",
+    "branch_address" : "عنوان الفرع :",
+    "delivery_address" : "عنوان التوصيل :",
+    "notes_on_order" : "ملاحظات على الطلب :",
+    "order_products" : "منتجات الطلب :",
+    "cancel_reason" : "سبب الإلغاء"
+  },
+  "payment_popup" : {
+    "title" : "الدفع",
+    "tax_price" : "سعر الضريبة :",
+    "total" : "السعر الكلي :",
+    "price_after_discount" : "سعر المنتج بعد الخصم :",
+    "discount_copon" : "قسيمة الخصم :",
+    "discount_copon_placeholder" : "أدخل قسيمة الخصم",
+    "apply" : "تطبيق",
+    "payment_method" : "طريقة الدفع :",
+    "payment_methods" : {
+      "wallet" : "محفظة إلكترونية",
+      "cash" : "نقدي",
+      "electronic" : "إلكتروني"
+    },
+    "back" : "رجوع",
+    "pay" : "دفع"
+  },
+  "rate_product_popup" : {
+    "title" : "تقييم المنتج",
+    "comment_placeholder" : "أكتب تعليقا",
+    "send_btn" : "إرسال التقييم",
+    "stars_error" : "يرجى إضافة نجوم التقييم لملاحظاتك",
+    "feedback_sent" : "تم إرسال التقييم بنجاح",
+    "feedback_title" : "التعليقات"
+  },
+  "chat" : {
+    "placeholder" : "أكتب رسالتك هنا"
+  },
+  "select_location" : {
+    "title" : "عنوان الموقع",
+    "title_placeholder" : "أدخل عنوان الموقع",
+    "details" : "تفاصيل الموقع",
+    "details_placeholder" : "أدخل تفاصيل الموقع"
+  }
+}
